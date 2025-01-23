@@ -12,7 +12,7 @@
 
 - 스도쿠 문제의 풀이 (LocationSearchConstraint 클래스)
 - 스도쿠 보드 시각화 (draw_sudoku_board 함수)
-- 코드: [sudoku.py](https://github.com/meticulousdev/ClassicComputerScienceProblemsInPython/blob/main/Chapter03/2022/sudoku.py)
+- 코드: [sudoku.py](https://github.com/kobong8/ClassicComputerScienceProblemsInPython/blob/main/Chapter03/2022/sudoku.py)
 
 ![sodoku](https://user-images.githubusercontent.com/83524779/163752718-ad870b69-a73a-4b7d-a4de-bb496ced1a38.png)
 
@@ -25,7 +25,7 @@
 - Jarnik's algorithm (Prim's algorithm)을 활용하여 최소 신장 트리 (minimum spanning tree, mst) 구축
 - 네트워크 구축 비용 최소화 과정에서 단계별 우선순위 큐 (priority queue)의 시각화 (visualize_priority_queue 및 show_result 함수)
 - show_result 개발자: [keizikang](https://keizikang.github.io/)
-- 코드: [mst.py](https://github.com/meticulousdev/ClassicComputerScienceProblemsInPython/blob/main/Chapter04/2022/mst.py)
+- 코드: [mst.py](https://github.com/kobong8/ClassicComputerScienceProblemsInPython/blob/main/Chapter04/2022/mst.py)
 
 ![msa_mst](https://user-images.githubusercontent.com/83524779/163836165-fcd966fe-ff7e-42c9-93ab-0e1dbc472c3d.gif)
 
