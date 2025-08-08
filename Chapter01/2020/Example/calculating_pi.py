@@ -1,3 +1,6 @@
+import time
+
+
 def calculate_pi(n_terms: int) -> float:
     numerator: float = 4.0
     denominator: float = 1.0
@@ -11,4 +14,8 @@ def calculate_pi(n_terms: int) -> float:
 
 
 if __name__ == "__main__":
+    start = time.time()
     print(calculate_pi(1000000))
+    end = time.time()
+
+    print(f"Elapsed time : {(end - start)*1000}ms")

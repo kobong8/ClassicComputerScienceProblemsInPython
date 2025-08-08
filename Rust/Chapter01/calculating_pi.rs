@@ -1,3 +1,5 @@
+use std::time::Instant;
+
 fn calculate_pi(n_terms: usize) -> f64 {
     let numerator: f64 = 4.0;
     let mut denominator: f64 = 1.0;
@@ -14,5 +16,10 @@ fn calculate_pi(n_terms: usize) -> f64 {
 }
 
 fn main() {
+    let start = Instant::now();
+
     println!("{}", calculate_pi(1_000_000));
+    
+    let duration = start.elapsed();
+    println!("Elapsed time : {:?}", duration);
 }

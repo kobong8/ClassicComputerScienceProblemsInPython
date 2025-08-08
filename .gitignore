@@ -5,4 +5,7 @@ references
 .idea
 __pycache__
 
+# Rust
 *.o
+*.pdb
+*.exe
